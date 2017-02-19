@@ -1,1 +1,10 @@
-
+if _name_ = '_main_':
+	neural_network = NeuralNetwork()
+	
+	print  'Random starting synaptic weights:'
+	print neural_network.synaptic_weights
+	
+	training_set_input =array([[0,0,1], [1,1,1], [1,0,1], [0,1,1]])
+	training_set_outputs = array([[0,1,1,0]]).T
+	
+	neural
